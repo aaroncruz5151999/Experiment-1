@@ -1,0 +1,35 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+
+int main ()
+{
+	double ticketPrice;
+	double numberOfTicektSold;
+
+	cout << "Enter Ticket Price" << endl;
+	cin ticketPrice;
+
+}
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+using namespace std;
+int main()
+{ 
+	double mass; 
+	double density; 
+
+	cout <<"Enter mass (in g) " << endl;
+	cin >> mass;
+
+	cout <<"Enter density (in g/cm^3)" << endl;
+	cin >> density;
+	
+	cout <<"volume (in cm^3:" << setprecision(2) << 0.25 * (mass/density) << endl;
+
+	-getch();
+	return 0;
